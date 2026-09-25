@@ -1,4 +1,3 @@
 # requirements.txt
-# Generado con: pip freeze > requirements.txt
 # Instalar con: pip install -r requirements.txt
 pandas==2.2.3
