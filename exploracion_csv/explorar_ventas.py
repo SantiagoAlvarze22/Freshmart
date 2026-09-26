@@ -1,6 +1,6 @@
 import pandas as pd
 
-ventas = pd.read_csv('freshmart_datasets\campana_verano_ventas.csv')
+ventas = pd.read_csv(r'..\freshmart_datasets\campana_verano_ventas.csv')
 
 print("=" * 60)
 print("VENTAS DE LA CAMPAÑA")

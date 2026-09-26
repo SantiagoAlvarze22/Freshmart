@@ -1,9 +1,9 @@
 import pandas as pd
 
 # se cargan los 3 archivos que se requieren
-clientes = pd.read_csv('freshmart_datasets\campana_verano_clientes.csv')
-ventas = pd.read_csv('freshmart_datasets\campana_verano_ventas.csv')
-productos = pd.read_csv('freshmart_datasets\productos_promo_verano.csv')
+clientes = pd.read_csv(r'..\freshmart_datasets\campana_verano_clientes.csv')
+ventas = pd.read_csv(r'..\freshmart_datasets\campana_verano_ventas.csv')
+productos = pd.read_csv(r'..\freshmart_datasets\productos_promo_verano.csv')
 
 print('=' * 60)
 print('CLIENTES DE LA CAMPAÑA')
